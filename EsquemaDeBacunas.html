@@ -1,0 +1,105 @@
+<!DOCTYPE htmL>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>CensoNiñosMenoresA5Años</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<script language="JavaScript">function pageLoaded() {window.parent.dhtmlHistory.iframeLoaded(window.location);}</script>
+
+<script type="text/javascript" src="prototype.compressed.js"></script>
+<script type="text/javascript" src="scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="lightbox.js"></script>
+<script type="text/javascript" src="dhtmlHistory.js"></script>
+<script type="text/javascript" src="customsignsheader.js"></script>
+<script type="text/javascript">
+  <!--
+  
+          var now = new Date();
+          var hours = now.getHours();
+          var psj=0;
+      document.write('<style type="text/css">')
+          //18-19 night
+          if (hours > 17 && hours < 20){
+                  document.write('body{background:orange; color:#FFFFFF;} a{color: yellow !important}')
+          }
+  
+          //20-21 night
+          if (hours > 19 && hours < 22){
+                  document.write('body{background:orangered; color:#FFFFFF;} a{color: yellow !important}')
+          }
+  
+          //22-4 night
+          if (hours > 21 || hours < 5){
+                  document.write('body{background:black; color:#FFFFFF;} a{color: yellow !important}')
+          }
+  
+          //9-17 day
+          if (hours > 8 && hours < 18){
+                  document.write('body{background:deepskyblue; color:#FFFFFF;} a{color: yellow !important}')
+          }
+  
+          //7-8 day
+          if (hours > 6 && hours < 9){
+                  document.write('body{background:skyblue; color:#FFFFFF;} a{color: yellow !important}')
+          }
+  
+          //5-6 day
+          if (hours > 4 && hours < 7){
+                  document.write('body{background:steelblue; color:#FFFFFF;} a{color: yellow !important}')
+          }
+      document.write('<\/style>')
+          
+  //-->
+  </script>
+</head>
+
+<head id="head">
+<body class="body">
+  <div id="menu">
+    <a href="index.html">
+    <img src="logo_blanco.svg"></a>
+    <b><a class="title">Censo De Niños Menores A 5 Años</a></b>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary, menu2">
+    <div class="container-fluid">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a id="botonmenu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button type="button" class="btn btn-light">Menu</button>
+            </a>
+            <ul id="submenu2" class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+              <li><a class="dropdown-item" href="vacunasinfo.html">Vacunas</a></li>
+              <li><a class="dropdown-item" href="EsquemaDeBacunas.html">Esquema De Vacunas</a></li>
+              <li><a class="dropdown-item" href="mapa.html">Mapa</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</head>
+
+<body onload="pageLoaded()">
+<div onclick="dhtmlHistory.add('location1',{message: 'backbox'});countdown()"><center>
+  <a href="Esquema1.jpg" rel="lightbox[slide]" caption="De 2 a 18 meses">
+  <img src="Esquema1.jpg" alt="lime" width="600" height="500" border="0" /></a></center>
+  </div>
+  
+  <a href="Esquema2.jpg" rel="lightbox[slide]" caption="De 2 a 5 años"></a>
+  <a href="Captura_de_pantalla_2015-09-28_a_las_11.45.30 (1).png" rel="lightbox[slide]" caption="Edades"></a>
+  <a href="dondevacunarse.png" rel="lightbox[slide]" caption="Donde bacunarse"></a>
+
+
+  <foot><div id="footer" class="foot"><br>
+    <a class="tfoot">¿Que aporta esta pagina? Esta pagina aporta una breve informacion de los niños menores a 5 años que han sido bacunados o que necesitan bacunas, conocer cuales son las necesarias.</a>
+  </div></foot>
+
+<script type="text/javascript" src="customsignsfooter.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
